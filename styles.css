@@ -1,8 +1,32 @@
 body {
     background-color: #FFF9E1;
+    font-family: 'Berkshire Swash', serif;
 }
 
 #tinyLogo {
-    width: 209.6px;
-    height: 160px;
+    width: 196.5px;
+    height: 150px;
+}
+
+#barContainer {
+    display: left;
+    justify-content: right;
+    align-items: center;
+}
+
+.mainBar{
+    display: inline-block;
+  vertical-align: middle
+}
+
+#loginText {
+    font-size: 22.5px;
+    padding-left: 20px;
+    padding-right: 12px;
+}
+
+#registerText {
+    font-size: 22.5px;
+    padding-left: 12px;
+    padding-right: 20px;
 }
