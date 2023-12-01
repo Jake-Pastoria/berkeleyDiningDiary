@@ -4,19 +4,36 @@ body {
 }
 
 #tinyLogo {
-    width: 196.5px;
-    height: 150px;
+    width: 176.85px;
+    height: 135px;
+}
+
+#largeLogo {
+    width: 361.36px;
+    height: 275px;
 }
 
 #barContainer {
-    display: left;
-    justify-content: right;
+    display: flex;
+    justify-content: left;
     align-items: center;
+}
+
+#loginBodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 30px;
 }
 
 .mainBar{
     display: inline-block;
-  vertical-align: middle
+    vertical-align: middle
+}
+
+.loginBoxObject{
+    display: inline-block;
 }
 
 #loginText {
@@ -29,4 +46,42 @@ body {
     font-size: 22.5px;
     padding-left: 12px;
     padding-right: 20px;
+}
+
+#returningText {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#userLoginInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+    /* border: 5px black; */
+}
+
+#userPassInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+}
+
+#loginPassContainer{
+    margin-top: 10px;
+}
+
+#submitText{
+    text-decoration: underline;
+    margin: 5px;
+}
+
+#orText{
+    margin: 5px;
+    text-decoration: none;
 }
