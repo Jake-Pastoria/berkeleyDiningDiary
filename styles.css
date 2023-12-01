@@ -81,6 +81,11 @@ body {
     margin: 5px;
 }
 
+#submitTextLogin{
+    text-decoration: underline;
+    margin: 5px;
+}
+
 #orText{
     margin: 5px;
     text-decoration: none;
