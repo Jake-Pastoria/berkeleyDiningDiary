@@ -14,29 +14,29 @@
     <div class="navBarContainer" id="barContainer"> 
 
        
-            <a href="index.html" class="mainBar">
+            <a href="welcome.html" class="mainBar">
                  <img src="assets/Dining.png" id="tinyLogo">
             </a>
 
-            <p id="loginText" class="mainBar"><a style="text-decoration: none; color: black;" href="index.html"><u>Login</u></a></p>
-            <p id="registerText" class="mainBar"><a style="text-decoration: none; color: black;" href="register.html">Register</a></p>
+            <p id="loginText" class="mainBar"><a style="text-decoration: none; color: black;" href="welcome.html">Welcome</a></p>
+            <p id="registerText" class="mainBar"><a style="text-decoration: none; color: black;" href="post.html"><u>Submit</u></a></p>
             <p id="registerText" class="mainBar"> <a style="text-decoration: none; color: black;" href="explore.html">Explore</a></p>
             
     </div>
 
     <div id="createTitleContainer">
-        <p>Create a Post!</p>
+        <p style="margin-bottom: 0px;">Create a Post!</p>
     </div>
             <div id="postContainer">
-                <div id="foodNameContainer">
+                <div id="foodNameContainer" style="margin-bottom: 12.5px;">
                 <label for="userLoginInput">Food Name: </label>
                 <input name="userLoginInput" id="userFoodItemInput"/>
                 </div>
-                <div id="ratingContaienr">
-                <label for="userPasswordInput">Rating:</label>
-                <input type="number" min="1" max="10" placeholder="-" id="userRatingInput"/>
+                <div id="ratingContaienr" >
+                <label for="userPasswordInput">Rating (_/10):</label>
+                <input type="number" min="1" max="10" placeholder="--" id="userRatingInput"/>
                 </div>
-                <div id="locationContainer">
+                <div id="locationContainer" style="margin-top: 10px; margin-bottom: 10px;" >
                 <label for="userPasswordInput">Location:</label>
                 <select name="userLocationInput" id="userLocationInput">
                     <option value="">--Choose a Location--</option>

@@ -19,6 +19,13 @@ submitPostReq.addEventListener("click", async function () {
     if (dataJSON.length == 0){
         statusMessage.innerHTML = "None Found Under Those Parameters"
     }else{
+        var results = JSON.stringify(dataJSON)
+        var location2 = inputLocation.value
+        var date = inputDate.value
+
+        localStorage.setItem('location2', location2);
+        localStorage.setItem('date', date);
+        localStorage.setItem('results', results);
         document.location = "filter.html"
     }
     console.log(dataJSON)

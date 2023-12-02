@@ -164,6 +164,7 @@ body {
     font-size: 22.5px;
     text-align: center;
     font-family: 'Berkshire Swash', serif;
+    
 }
 
 #userRatingInput{
@@ -195,6 +196,11 @@ body {
 
 #findFilterText{
 margin: 0px;
+margin-top: 100px;
+}
+
+#findFilterText2{
+    margin: 0px;
 }
 
 #filterResultsContainer {
@@ -215,11 +221,17 @@ margin: 0px;
 }
 
 #foodItemTitleText{
-    margin-right: 290px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    font-size: 35px;
 }
 #usernameTitleText{
-    margin-right: 200px;
+    margin-right: 160px;
+    margin-bottom: 0px;
+    font-size: 35px;
 }
 #ratingTitleText{
-    margin-right: 125px;
+    margin-right: 105px;
+    margin-bottom: 0px;
+    font-size: 35px;
 }

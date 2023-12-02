@@ -1,5 +1,9 @@
+    var retrievedValue = localStorage.getItem('sharedVariable');
+
+    
     document.addEventListener("DOMContentLoaded", function() {
-        var message = "Welcome To The Cal Dining Diary!".concat(x)
+        
+        var message = "Welcome To The Cal Dining Diary ".concat(retrievedValue).concat("!")
         var messageContainer = document.getElementById("messageContainer");
     
         var coloredText = '<span style="color: black;">Welcome To The Cal Dining Diary!</span>';

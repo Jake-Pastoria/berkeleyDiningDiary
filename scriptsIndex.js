@@ -21,8 +21,9 @@ submitLoginReq.addEventListener("click", async function () {
     if (dataJSON.length == 0){
         statusMessage.innerHTML = "Failed to find a user with that information..."
     }else{
+        var sharedValue = dataJSON[0].username;
+        localStorage.setItem('sharedVariable', sharedValue);
         document.location = "welcome.html"
     }
-    console.log(dataJSON)
-    x = dataJSON.username
+    
 });

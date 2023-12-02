@@ -10,7 +10,9 @@ submitPostReq.addEventListener("click", async function () {
         "fooditem": inputFoodItem.value,
         "rating": inputRating.value,
         "location": inputLocation.value,
-        "date": inputDate.value
+        "date": inputDate.value,
+        "username": localStorage.getItem("sharedVariable")
+
     }
     const response = await fetch("http://localhost:3000/add", {
         method: 'POST',
