@@ -2,6 +2,7 @@ const inputName = document.getElementById("userLoginInput")
 const inputPassword = document.getElementById("userPasswordInput")
 const submitLoginReq = document.getElementById("submitTextLogin")
 const statusMessage = document.getElementById("statusMessageText")
+var x = ""
 
 submitLoginReq.addEventListener("click", async function () {
     console.log("test")
@@ -23,4 +24,5 @@ submitLoginReq.addEventListener("click", async function () {
         document.location = "welcome.html"
     }
     console.log(dataJSON)
+    x = dataJSON.username
 });

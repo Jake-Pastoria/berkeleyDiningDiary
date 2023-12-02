@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkeley Dining Diary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navBarContainer" id="barContainer"> 
+
+            <a href="index.html" class="mainBar">
+                 <img src="assets/Dining.png" id="tinyLogo">
+            </a>
+
+            <p id="loginText" class="mainBar"><a style="text-decoration: none; color: black;" href="index.html">Welcome</a></p>
+            <p id="registerText" class="mainBar"><a style="text-decoration: none; color: black;" href="post.html">Submit</a></p>
+            <p id="registerText" class="mainBar"><a style="text-decoration: none; color: black;" href="explore.html"><u>Explore</u></a></p>
+
+    </div>
+
+    <div id="loginBodyContainer">
+
+        <p id="findFilterText" class="loginBoxObject">Find and Filter Entries!</p>
+            <div id="loginUserContainer">
+                <label for="locationInput">Location: </label>
+                <select name="locationInput" id="userLocationInput">
+                    <option>Clark Kerr</option>
+                    <option>Cafe 3</option>
+                    <option>Foothill</option>
+                    <option>Crossroads</option>
+                    <option>Golden Bear Cafe</option>
+                </select>
+
+            </div>
+            <div id="loginPassContainer">
+                <label for="dateInput">Date:</label>
+                <input type="date" name="dateInput" id="userDateInput"/>
+            </div>
+        <p id="submitFilter" class="loginBoxObject"><a id="submitFilter" style="text-decoration: none; color: black;">Submit</a></p>
+        <p id="statusMessageText"></p>
+
+    <div id="loginContainer">
+
+
+
+    </div>
+
+
+
+
+    </div>
+
+    <script src="scriptsExplore.js"></script>
+</body>
+</html>

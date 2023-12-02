@@ -1,0 +1,122 @@
+body {
+    background-color: #FFF9E1;
+    font-family: 'Berkshire Swash', serif;
+}
+
+#tinyLogo {
+    width: 176.85px;
+    height: 135px;
+}
+
+#largeLogo {
+    width: 361.36px;
+    height: 275px;
+}
+
+#barContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#loginBodyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 30px;
+}
+
+.mainBar{
+    display: inline-block;
+    vertical-align: middle
+}
+
+.loginBoxObject{
+    display: inline-block;
+}
+
+#loginText {
+    font-size: 22.5px;
+    padding-left: 20px;
+    padding-right: 12px;
+}
+
+#registerText {
+    font-size: 22.5px;
+    padding-left: 12px;
+    padding-right: 20px;
+}
+
+#returningText {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#userLoginInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+    /* border: 5px black; */
+}
+
+#userPasswordInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+}
+
+#loginPassContainer{
+    margin-top: 10px;
+}
+
+#submitText{
+    text-decoration: underline;
+    margin: 5px;
+}
+
+#submitTextLogin{
+    text-decoration: underline;
+    margin: 5px;
+}
+
+#orText{
+    margin: 5px;
+    text-decoration: none;
+}
+
+#messageContainer{
+        padding: 40px;
+        color: #010101;
+        font-size: 25px;
+        line-height: 2;
+        text-align: center;
+        font-family: 'Berkshire Swash', serif;
+        white-space: pre-line;
+}
+
+#secondmessageContainer{
+    padding: 30px;
+    color: #010101;
+    font-size: 25px;
+    line-height: 1.8;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+    white-space: pre-line;
+}
+
+#thirdmessageContainer{
+    padding: 40px;
+    color: black;
+    font-size: 25px;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+    white-space: pre-line;
+}

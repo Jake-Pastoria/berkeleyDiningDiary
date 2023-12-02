@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berkeley Dining Diary</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
@@ -13,43 +12,25 @@
 
     <div class="navBarContainer" id="barContainer"> 
 
-       
-            <a href="index.html" class="mainBar">
-                 <img src="assets/Dining.png" id="tinyLogo">
-            </a>
+        <a href="index.html" class="mainBar">
+            <img src="assets/Dining.png" id="tinyLogo">
+        </a>
 
-            <p id="loginText" class="mainBar"><a style="text-decoration: none; color: black;" href="index.html"><u>Login</u></a></p>
-            <p id="registerText" class="mainBar"><a style="text-decoration: none; color: black;" href="register.html">Register</a></p>
-            
+        <p id="loginText" class="mainBar"><a style="text-decoration: none; color: black;" href="welcome.html"><u>Welcome</u></a></p>
+        <p id="registerText" class="mainBar"><a style="text-decoration: none; color: black;" href="post.html">Submit</a></p>
+        <p id="welcomeText" class="mainBar"><a style="text-decoration: none; color: black;" href="explore.html">Explore</a></p>
     </div>
 
-    <div id="loginBodyContainer">
-
-        <img src="assets/Dining.png" class="loginBoxObject" id="largeLogo">
-        <p id="returningText" class="loginBoxObject">Returning User?</p>
-            <div id="loginUserContainer">
-                <label for="userLoginInput">Username: </label>
-                <input name="userLoginInput" id="userLoginInput"/>
-            </div>
-            <div id="loginPassContainer">
-                <label for="userPasswordInput">Password:</label>
-                <input name="userPasswordInput" id="userPasswordInput"/>
-            </div>
-        <p id="submitTextLogin" class="loginBoxObject"><a id="submitTextLogin" style="text-decoration: none; color: black;">Submit</a></p>
-        <p id="orText" class="loginBoxObject">Or <a style="text-decoration: none; color: black;" href="register.html"><u>Register</u></a></p>
-        <p id="statusMessageText"></p>
-
-    <div id="loginContainer">
+    <div id="messageContainer"></div>
+    <div id="secondmessageContainer"></div>
+    <div id="thirdmessageContainer"></div>
 
 
+  <title>Image Example</title>
+  <img src="" alt="Cal Dinning">
+  <img src="" alt="Cal Dinning">
 
-    </div>
-
-
-
-
-    </div>
-
+    <script src="scriptsIndex.js"></script>
     <script src="scriptsWelcome.js"></script>
 </body>
 </html>

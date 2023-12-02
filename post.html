@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkeley Dining Diary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navBarContainer" id="barContainer"> 
+
+       
+            <a href="index.html" class="mainBar">
+                 <img src="assets/Dining.png" id="tinyLogo">
+            </a>
+
+            <p id="loginText" class="mainBar"><a style="text-decoration: none; color: black;" href="index.html"><u>Login</u></a></p>
+            <p id="registerText" class="mainBar"><a style="text-decoration: none; color: black;" href="register.html">Register</a></p>
+            <p id="registerText" class="mainBar"> <a style="text-decoration: none; color: black;" href="explore.html">Explore</a></p>
+            
+    </div>
+
+    <div id="createTitleContainer">
+        <p>Create a Post!</p>
+    </div>
+            <div id="postContainer">
+                <div id="foodNameContainer">
+                <label for="userLoginInput">Food Name: </label>
+                <input name="userLoginInput" id="userFoodItemInput"/>
+                </div>
+                <div id="ratingContaienr">
+                <label for="userPasswordInput">Rating:</label>
+                <input type="number" min="1" max="10" placeholder="-" id="userRatingInput"/>
+                </div>
+                <div id="locationContainer">
+                <label for="userPasswordInput">Location:</label>
+                <select name="userLocationInput" id="userLocationInput">
+                    <option value="">--Choose a Location--</option>
+                        <option value="Clark Kerr">Clark Kerr</option>
+                        <option value="Crossroads">Crossroads</option>
+                        <option value="Cafe 3">Cafe 3</option>
+                        <option value="Foothill">Foothill</option>
+                        <option value="Golden Bear Cafe">Golden Bear Cafe</option>
+                        </select>
+                </div>
+                <div id="dateContainer">
+                <label for="userPasswordInput">Date:</label>
+                <input type="date" name="userPasswordInput" id="userDateInput"/>
+                </div>
+        <p id="submitTextLogin" class="loginBoxObject"><a id="submitTextLogin" style="text-decoration: none; color: black;">Submit</a></p>
+        <p id="statusMessageText"></p>
+            </div>
+    <div id="loginContainer">
+
+
+
+    </div>
+
+
+
+
+    </div>
+
+    <script src="scriptsPost.js"></script>
+</body>
+</html>

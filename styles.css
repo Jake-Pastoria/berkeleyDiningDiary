@@ -86,7 +86,140 @@ body {
     margin: 5px;
 }
 
+#submitFilter{
+    text-decoration: underline;
+    margin: 5px;
+}
+
 #orText{
     margin: 5px;
     text-decoration: none;
+}
+
+#backText{
+    margin: 0px;
+    text-decoration: none;
+}
+
+#findFilterText{
+    font-size: 50px;
+}
+
+#userLocationInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+    /* border: 5px black; */
+}
+
+#userDateInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+    /* border: 5px black; */
+}
+
+#createTitleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 50px;
+}
+
+#postContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 30px;
+}
+
+#foodNameContainer{
+    margin: 20px;
+}
+
+#ratingContainer{
+    margin: 20px;
+}
+
+#locationContainer{
+    margin: 20px;
+}
+
+#dateContainer{
+    margin: 10px;
+}
+
+#userFoodItemInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+}
+
+#userRatingInput{
+    width: 70px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+}
+
+#userLocationInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+}
+
+#userDateInput{
+    width: 270px;
+    height: 38px;
+    border-radius: 15px;
+    font-size: 22.5px;
+    text-align: center;
+    font-family: 'Berkshire Swash', serif;
+}
+
+#findFilterText{
+margin: 0px;
+}
+
+#filterResultsContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    background-color: #ADA896;
+    width: 1200px;
+    height: 485px;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+#filterTitlesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: right; 
+}
+
+#foodItemTitleText{
+    margin-right: 290px;
+}
+#usernameTitleText{
+    margin-right: 200px;
+}
+#ratingTitleText{
+    margin-right: 125px;
 }
