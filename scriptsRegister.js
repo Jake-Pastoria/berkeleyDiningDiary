@@ -20,6 +20,8 @@ submitPostReq.addEventListener("click", async function () {
         statusMessage.innerHTML = "User already exists..."
     }else{
         statusMessage.innerHTML = "Registered Successfully!"
+        inputName.value = ""
+        inputPassword.value = ""
     }
     console.log(dataJSON)
 });
