@@ -22,6 +22,11 @@ submitPostReq.addEventListener("click", async function () {
             body: JSON.stringify(data),
     })
     console.log(response)
+    inputFoodItem.value = ""
+    inputRating.value = ""
+    inputLocation.value = ""
+    inputDate.value = ""
+    statusMessage.innerHTML = "Successfully Submitted Post!"
     // const dataJSON = await response.json()
     // if (dataJSON.message == "None Found Under Those Parameters"){
     //     statusMessage.innerHTML = "None Found Under Those Parameters"

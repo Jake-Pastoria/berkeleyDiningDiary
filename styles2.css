@@ -91,6 +91,8 @@ body {
     text-decoration: none;
 }
 
+/* -------------WELCOME PAGE CSS----------------------------- */
+
 #messageContainer{
         padding: 40px;
         color: #010101;
@@ -120,3 +122,17 @@ body {
     font-family: 'Berkshire Swash', serif;
     white-space: pre-line;
 }
+
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50; /* Adjust as needed */
+  }
+
+  #bigContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
